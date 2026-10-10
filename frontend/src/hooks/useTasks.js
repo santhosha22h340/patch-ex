@@ -16,7 +16,7 @@ export function useTasks(query, status, page, pageSize) {
   }, [query]);
 
   useEffect(() => {
-    let ignore = false; // இந்த request பழையதாகிவிட்டால் true ஆகும்
+    let ignore = false;
 
     setLoading(true);
     setError(null);
